@@ -29,7 +29,7 @@ services:
 
   # React frontend: Render runs the build and serves dist/ (static sites are free)
   - type: web
-    name: sitecheck-frontend-penguin
+    name: project-penguin
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
